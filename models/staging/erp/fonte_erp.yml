@@ -1,0 +1,28 @@
+sources:
+  - name: erp
+    description: Adventure Works Data Driven System.
+    schema: raw_adventure_works
+    database: fea24_11
+    tables:
+      - name: product
+        columns:
+          - name: productid
+            data_tests:
+              - unique
+              - not_null
+      
+      - name: transactionhistory
+
+      - name: productsubcategory
+
+      - name: productcategory
+
+      - name: productmodel
+
+      - name: productvendor
+
+      - name: productlistpricehistory
+
+      - name: productinventory
+
+
