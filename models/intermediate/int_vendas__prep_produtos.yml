@@ -1,0 +1,28 @@
+models:
+  - name: int_vendas__prep_produtos
+    description: Increasing Model Data of Products with Category and Suppliers
+    columns:
+      - name: PK_PRODUCT_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: SAFE_STOCK_LEVEL
+        description: TO BE DETERMINED.
+        
+      - name: REORDER_POINT
+        description: TO BE DETERMINED.
+        
+      - name: NAME
+        description: TO BE DETERMINED.
+        
+      - name: PRODUCT_NUMBER
+        description: TO BE DETERMINED.
+        
+      - name: COLOR
+        description: TO BE DETERMINED.
+        
+      - name: PRODUCT_LINE
+        description: TO BE DETERMINED.
+        
