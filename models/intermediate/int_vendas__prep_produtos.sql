@@ -9,18 +9,15 @@ with
         from {{ ref('stg_erp__productsubcategory') }}
     )
 
-    , transactionhistory as (
-        select *
-        from {{ ref('stg_erp__transactionhistory') }}
-    )
 
     , increase_product as (
         select
             product.PK_PRODUCT_ID
-            , product.SAFE_STOCK_LEVEL
-            , product.REORDER_POINT
-            , product.NAME
+            , product.NAME_PRODUCT
+            , productsubcategory.NAME_SUB_CAT_BIKE
             , product.PRODUCT_NUMBER
+            , product.SAFE_STOCK_LEVEL
+            , product.REORDER_POINT            
             , product.COLOR
             , product.PRODUCT_LINE
         from product

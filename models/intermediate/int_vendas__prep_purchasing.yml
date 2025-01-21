@@ -1,0 +1,36 @@
+models:
+  - name: int_vendas__prep_purchasing
+    description: Increasing Model Data of Purchasing.
+    columns:
+      - name: PK_PURCHASE_ORDER_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - not_null
+          - unique
+          
+      - name: ACCOUNT_NUMBER
+        description: TO BE DETERMINED.
+        
+      - name: NAME_ENTERPRISE
+        description: TO BE DETERMINED.
+        
+      - name: TAXA_MT_VALUE
+        description: TO BE DETERMINED.
+        
+      - name: FREIGHT_VALUE
+        description: TO BE DETERMINED.
+        
+      - name: SUBTOTAL_VALUE
+        description: TO BE DETERMINED.
+        
+      - name: REVISION_NUMBER
+        description: TO BE DETERMINED.
+        
+      - name: STATUS_NUMBER
+        description: TO BE DETERMINED.
+        
+      - name: ORDER_DATE
+        description: TO BE DETERMINED.
+        
+      - name: SHIP_DATE
+        description: TO BE DETERMINED.

@@ -1,13 +1,13 @@
 models:
   - name: int_vendas__prep_produtos
-    description: Increasing Model Data of Products with Category and Suppliers
+    description: Increasing Model Data of Purchasing.
     columns:
       - name: PK_PRODUCT_ID
         description: TO BE DETERMINED.
         data_tests:
           - unique
           - not_null
-
+          
       - name: SAFE_STOCK_LEVEL
         description: TO BE DETERMINED.
         
