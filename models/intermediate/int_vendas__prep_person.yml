@@ -1,0 +1,24 @@
+models:
+  - name: int_vendas__prep_person
+    description: Increasing Model Data of Person.
+    columns:
+      - name: PK_BUSINESS_ENTITY_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+          
+      - name: EMPLOYEE_NAME
+        description: TO BE DETERMINED.
+        
+      - name: EMAIL_EMPLOYEE
+        description: TO BE DETERMINED.
+        
+      - name: PHONE_NUMBER
+        description: TO BE DETERMINED.        
+
+
+
+
+
+        

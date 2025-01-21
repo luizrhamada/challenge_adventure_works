@@ -25,10 +25,24 @@ sources:
 
       - name: productinventory
 
+      - name: personphone
+
       - name: vendor
 
       - name: purchaseorderdetail
 
       - name: purchaseorderheader
+
+      - name: person
+
+      - name: emailaddress
+
+      - name: personcreditcard
+
+      - name: businessentity
+
+      - name: address
+
+      - name: salesorderheader
 
 
