@@ -12,7 +12,7 @@ with
             , cast(SAFETYSTOCKLEVEL as int) as safe_stock_level
             , cast(REORDERPOINT as int) as reorder_point
             , cast(WEIGHT as numeric(18,2)) as weight
-            , cast(NAME as string) as name
+            , cast(NAME as string) as name_product
             , cast(PRODUCTNUMBER as string) as product_number 
             , cast(COLOR as string) as color
             , cast(PRODUCTLINE as string) as product_line 

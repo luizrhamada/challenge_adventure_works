@@ -25,4 +25,10 @@ sources:
 
       - name: productinventory
 
+      - name: vendor
+
+      - name: purchaseorderdetail
+
+      - name: purchaseorderheader
+
 

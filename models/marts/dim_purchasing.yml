@@ -1,0 +1,37 @@
+models:
+  - name: dim_purchasing
+    description: Increasing Model Data of Purchasing.
+    columns:
+      - name: PK_PURCHASE_ORDER_ID
+        description: TO DE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+                  
+      - name: ACCOUNT_NUMBER
+        description: TO DE DETERMINED.
+        
+      - name: NAME_ENTERPRISE
+        description: TO DE DETERMINED.
+        
+      - name: TAXA_MT_VALUE
+        description: TO DE DETERMINED.
+        
+      - name: FREIGHT_VALUE
+        description: TO DE DETERMINED.
+        
+      - name: SUBTOTAL_VALUE
+        description: TO DE DETERMINED.
+        
+      - name: REVISION_NUMBER
+        description: TO DE DETERMINED.
+        
+      - name: STATUS_NUMBER
+        description: TO DE DETERMINED.
+        
+      - name: ORDER_DATE
+        description: TO DE DETERMINED.
+        
+      - name: SHIP_DATE
+        description: TO DE DETERMINED.
+  
