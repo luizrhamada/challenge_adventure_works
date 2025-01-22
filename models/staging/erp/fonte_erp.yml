@@ -45,4 +45,14 @@ sources:
 
       - name: salesorderheader
 
+      - name: salesperson
+
+      - name: salesterritory
+
+      - name: salesorderdetail
+
+      - name: customer
+
+      - name: currencyrate
+
 
