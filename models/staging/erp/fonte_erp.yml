@@ -55,4 +55,12 @@ sources:
 
       - name: currencyrate
 
+      - name: employee
+
+      - name: employeedepartmenthistory
+
+      - name: department
+
+
+
 
