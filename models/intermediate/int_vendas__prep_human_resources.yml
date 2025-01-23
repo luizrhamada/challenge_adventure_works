@@ -1,0 +1,42 @@
+models:
+  - name: int_vendas__prep_human_resources
+    description: Increasing Model Data of Human Resources.
+    columns:
+      - name: PK_BUSINESS_ENTITY_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: EMPLOYEE_NAME
+        description: TO BE DETERMINED. 
+
+      - name: JOB_TITLE
+        description: TO BE DETERMINED.
+
+      - name: BIRTHDATE_EMPLOYEE
+        description: TO BE DETERMINED.
+
+      - name: HIRE_DATE
+        description: TO BE DETERMINED.
+      
+      - name: VACATION_HOURS
+        description: TO BE DETERMINED.
+  
+      - name: SICK_LEAVE_HOURS
+        description: TO BE DETERMINED.
+
+      - name: SALES_QUOTA
+        description: TO BE DETERMINED.
+
+      - name: BONUS
+        description: TO BE DETERMINED.
+
+      - name: COMISSION_PCT
+        description: TO BE DETERMINED.
+
+      - name: SALES_YTD_VALUE
+        description: TO BE DETERMINED.
+
+      - name: SALES_LAST_YEAR_VALUE
+        description: TO BE DETERMINED.
