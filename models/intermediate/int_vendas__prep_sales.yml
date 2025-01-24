@@ -50,7 +50,16 @@ models:
       - name: TOTAL_DUE_VALUE
         description: TO BE DETERMINED.
 
+      - name: CREDIT_CARD_TYPE
+        description: TO BE DETERMINED.
+
+      - name: CREDIT_CARD_NUMBER
+        description: TO BE DETERMINED.
+
       - name: TRACKING_NUMER
+        description: TO BE DETERMINED.
+
+      - name: STATUS
         description: TO BE DETERMINED.
 
       - name: ORDER_QTY

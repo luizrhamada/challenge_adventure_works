@@ -1,0 +1,15 @@
+models:
+  - name: int_vendas__prep_sales_reason
+    description: Increasing Model Data of Sales Reason.
+    columns:
+      - name: PK_JOIN_SALES_REASON_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - not_null
+          - unique
+          
+      - name: NAME_REASON
+        description: TO BE DETERMINED.
+
+      - name: REASON_TYPE
+        description: TO BE DETERMINED.
