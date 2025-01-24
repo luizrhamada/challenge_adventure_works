@@ -1,0 +1,24 @@
+models:
+  - name: dim_person_credit_card
+    description: Increasing Model Data of Person Credit Card.
+    columns:
+      - name: PK_BUSINESS_ENTITY_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: EMPLOYEE_NAME
+        description: TO BE DETERMINED.
+
+      - name: CREDIT_CARD_TYPE
+        description: TO BE DETERMINED.
+
+      - name: CREDIT_CARD_NUMBER
+        description: TO BE DETERMINED.
+
+      - name: EXP_MONTH
+        description: TO BE DETERMINED.
+
+      - name: EXP_YEAR
+        description: TO BE DETERMINED.

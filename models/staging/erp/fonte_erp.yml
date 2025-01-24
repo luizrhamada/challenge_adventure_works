@@ -61,6 +61,18 @@ sources:
 
       - name: department
 
+      - name: creditcard
+
+      - name: salesorderheadersalesreason
+
+      - name: salesreason
+
+      - name: workorderrouting
+
+      - name: workorder
+
+      - name: location
+
 
 
 

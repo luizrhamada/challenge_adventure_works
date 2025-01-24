@@ -1,0 +1,39 @@
+models:
+  - name: dim_work_order
+    description: Increasing Model Data of Work Order.
+    columns:
+      - name: PK_WORK_PROD_LOC_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: NAME_LOCATION
+        description: TO BE DETERMINED.
+
+      - name: COSTRATE
+        description: TO BE DETERMINED.
+
+      - name: AVAILABILITY
+        description: TO BE DETERMINED.
+
+      - name: PLANNED_COST
+        description: TO BE DETERMINED.
+
+      - name: ACTUAL_COST
+        description: TO BE DETERMINED.
+
+      - name: ORDER_QTY
+        description: TO BE DETERMINED.
+
+      - name: SCRAPPED_QTY
+        description: TO BE DETERMINED.
+
+      - name: START_DATE
+        description: TO BE DETERMINED.
+
+      - name: END_DATE
+        description: TO BE DETERMINED.
+
+      - name: DUE_DATE
+        description: TO BE DETERMINED.
