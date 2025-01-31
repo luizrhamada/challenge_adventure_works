@@ -12,7 +12,7 @@ with
             , cast(TERRITORYID as int) as fk_territory_id
             , cast(CREDITCARDID as int) as fk_credit_card_id
             , cast(CURRENCYRATEID as int) as fk_currency_rate_id
-            , cast( BILLTOADDRESSID as int) as fk_bill_to_address_id
+            , cast(BILLTOADDRESSID as int) as fk_bill_to_address_id
             , cast(PURCHASEORDERNUMBER as string) as purchase_number
             , cast(ACCOUNTNUMBER as string) as account_number
             , cast(ORDERDATE as string) as order_date
@@ -24,7 +24,9 @@ with
             , cast(FREIGHT as numeric(18,2)) as freight_value
             , cast(TOTALDUE as numeric(18,2)) as total_due_value
         from fonte_salesorderheader
+
     )
+
 
 select *
 from renomeado
