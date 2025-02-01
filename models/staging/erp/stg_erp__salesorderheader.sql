@@ -13,6 +13,7 @@ with
             , cast(CREDITCARDID as int) as fk_credit_card_id
             , cast(CURRENCYRATEID as int) as fk_currency_rate_id
             , cast(BILLTOADDRESSID as int) as fk_bill_to_address_id
+            , cast(SHIPTOADDRESSID as int) as fk_ship_to_address_id
             , cast(PURCHASEORDERNUMBER as string) as purchase_number
             , cast(ACCOUNTNUMBER as string) as account_number
             , cast(ORDERDATE as string) as order_date
