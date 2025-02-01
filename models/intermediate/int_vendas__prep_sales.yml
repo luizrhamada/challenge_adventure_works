@@ -7,24 +7,6 @@ models:
         data_tests:
           - not_null
           - unique
-          
-      - name: FK_SALES_ORDER_ID
-        description: TO BE DETERMINED.
-
-      - name: FK_PRODUCT_ID
-        description: TO BE DETERMINED.
-
-      - name: FK_BUSINESS_ORDER_ID
-        description: TO BE DETERMINED.
-
-      - name: FK_COSTUMER_ID
-        description: TO BE DETERMINED.
-
-      - name: FK_CURRENCY_RATE_ID
-        description: TO BE DETERMINED.
-
-      - name: FK_TERRITORY_ID
-        description: TO BE DETERMINED.
 
       - name: PURCHASE_NUMBER
         description: TO BE DETERMINED.
@@ -54,21 +36,6 @@ models:
         description: TO BE DETERMINED.
 
       - name: TOTAL_DUE_VALUE
-        description: TO BE DETERMINED.
-
-      - name: NAME_TERRITORY
-        description: TO BE DETERMINED.
-
-      - name: COUNTRY_REGION_CODE
-        description: TO BE DETERMINED.
-
-      - name: CONTINENT_REGION
-        description: TO BE DETERMINED.
-
-      - name: SALES_YTD_PER_REGION_VALUE
-        description: TO BE DETERMINED.
-
-      - name: SALES_LAST_YEAR_PER_REGION_VALUE
         description: TO BE DETERMINED.
 
       - name: TRACKING_NUMER

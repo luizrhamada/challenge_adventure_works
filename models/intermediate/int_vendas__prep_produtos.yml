@@ -1,6 +1,6 @@
 models:
   - name: int_vendas__prep_produtos
-    description: Increasing Model Data of Purchasing.
+    description: Increasing Model Data of Purchasing
     columns:
       - name: PK_PRODUCT_ID
         description: TO BE DETERMINED.

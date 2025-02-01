@@ -6,9 +6,10 @@ with
 
     , renomeado as (
         select
-            cast(BUSINESSENTITYID  as int) as pk_business_entity_id
+            cast(PHONENUMBER as string) as pk_phone_number  
+            , cast(BUSINESSENTITYID  as int) as fk_business_entity_id
             , cast(PHONENUMBERTYPEID as int) as fk_phone_number_type_id
-            , cast(PHONENUMBER as string) as phone_number         
+                  
         from fonte_personphone
     ) 
 
