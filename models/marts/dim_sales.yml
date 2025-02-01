@@ -1,0 +1,51 @@
+models:
+  - name: dim_sales
+    description: Increasing Model Data of Sales.
+    columns:
+      - name: PK_SALES_ORDER_DETAIL_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - not_null
+          - unique
+
+      - name: PURCHASE_NUMBER
+        description: TO BE DETERMINED.
+
+      - name: ACCOUNT_NUMBER
+        description: TO BE DETERMINED.
+
+      - name: ORDER_DATE
+        description: TO BE DETERMINED.
+
+      - name: STATUS
+        description: TO BE DETERMINED.
+
+      - name: SHIP_DATE
+        description: TO BE DETERMINED.
+
+      - name: DUE_DATE
+        description: TO BE DETERMINED.
+
+      - name: SUBTOTAL_VALUE
+        description: TO BE DETERMINED.
+
+      - name: TAXA_MT_VALUE
+        description: TO BE DETERMINED.
+
+      - name: FREIGHT_VALUE
+        description: TO BE DETERMINED.
+
+      - name: TOTAL_DUE_VALUE
+        description: TO BE DETERMINED.
+
+      - name: TRACKING_NUMER
+        description: TO BE DETERMINED.
+
+      - name: ORDER_QTY
+        description: TO BE DETERMINED.
+
+      - name: UNITY_PRICE
+        description: TO BE DETERMINED.
+
+      - name: DISCOUNT_UNITY_PRICE
+        description: TO BE DETERMINED.
