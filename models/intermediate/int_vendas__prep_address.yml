@@ -1,0 +1,28 @@
+models:
+  - name: int_vendas__prep_address
+    description: Increasing Model Data of Address Information
+    columns:
+      - name: PK_ADDRESS_ID
+        description: TO BE DETERMINED.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: FK_STATE_PROVINCE_ID
+        description: TO BE DETERMINED.
+
+      - name: ADDRESS_LINE1
+        description: TO BE DETERMINED.
+
+      - name: ADDRESS_LINE2
+        description: TO BE DETERMINED.
+
+      - name: CITY
+        description: TO BE DETERMINED.
+
+      - name: POSTAL_CODE
+        description: TO BE DETERMINED.
+
+      - name: FK_TERRITORY_ID
+        description: TO BE DETERMINED.
+
